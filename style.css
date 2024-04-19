@@ -1,0 +1,29 @@
+h1 {
+    background-color: #B5C5C5;
+    color: #858BA1;
+    padding: 10px;
+    margin: 0px;
+}
+
+img {
+    margin: 10px;
+}
+
+body {
+    background-color: #FFEFF6;
+}
+
+.sale1 {
+    background-color: #123D5F;
+    border: solid 5px #A7B6B5;
+    color: white;
+    height: 100;
+    width: 150;
+
+}
+
+.sale1:hover {
+    background-color: cyan;
+    border: solid 5px hotpink;
+    color: black;
+}
