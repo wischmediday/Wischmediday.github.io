@@ -1,29 +1,55 @@
-h1 {
-    background-color: #B5C5C5;
-    color: #858BA1;
-    padding: 10px;
+.navi {
+    background-color: #E3FF47;
+    color: #000000;
+    padding: 30px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+
+
+img {
+    margin: 0px;
+
+}
+
+.content {
+    background-color: #FFE0D6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+    font-size: 20px;
     margin: 0px;
 }
 
-img {
-    margin: 10px;
+button{
+    background-color: #E3FF47;
+    border: none;
 }
 
-body {
-    background-color: #FFEFF6;
+button:hover{
+    background-color: #FFCB47;
 }
 
-.sale1 {
-    background-color: #123D5F;
-    border: solid 5px #A7B6B5;
-    color: white;
-    height: 100;
-    width: 150;
-
+body{
+    background-color:#FFE0D6 ;
+    font-family: "Krub", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
-.sale1:hover {
-    background-color: cyan;
-    border: solid 5px hotpink;
-    color: black;
+.kaufen{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Krub", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
