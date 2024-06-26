@@ -53,3 +53,24 @@ body{
   font-weight: 200;
   font-style: normal;
 }
+
+
+.home{
+    display: flex;
+}
+
+.produkt{
+    display: none;
+}
+
+.kontakt{
+    display: none;
+}
+
+
+
+
+
+
+
+
