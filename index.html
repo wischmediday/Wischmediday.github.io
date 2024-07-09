@@ -35,17 +35,14 @@
     <div>Wischmediday</div>
 
     <div>
-      <button onclick="zeigeMeldung()">
+      <button onclick="showhome()">
         Home
       </button>
-      <button>
-        Produkt
+      <button onclick="showkundenmeinungen ()">
+        Kundenmeinungen
       </button>
-      <button>
-        Kontakt
-      </button>
-      <button>
-        Login
+      <button onclick="showkaufen()">
+        Kaufen
       </button>
     </div>
   </div>
@@ -78,30 +75,44 @@
     <button class=" kaufen">
         Kaufen
         </button>
+      </div>
+    </section>
+
+
+    <section class="kundenmeinungen">
+
+      Es war sehr gut.
+
 
     </section>
 
-  </div>
-  <section class="produkt">
+    <section class="kaufen">
 
-    ist geil
+      1500$
 
-
-  </section>
-
-  <section class="kontakt">
-
-    hi
-
-  </section>
+    </section>
 
 
-<script>
-function zeigeMeldung () {
-  alert("herzlich Willkommen")
-}
-
-</script>
+    <script>
+      function showhome() {}
+       
+      function showkundenmeinungen() {
+        var HomeSection = document.querySelector(".home")
+        HomeSection.style.display = "none"
+        var KundenmeinungenSection = document.querySelector(".kundenmeinenungen")
+        KundenmeinungenSection.style.display = "flex"
+        var KaufenSection = document.querySelector("kaufen")
+        KaufenSection = document.style.display = "none"
+      }
+      function showkaufen(){
+        var HomeSection = document.querySelector(".home")
+        HomeSection.style.display = "none"
+        var KundenmeinungenSection = document.querySelector(".kundenmeinenungen")
+        KundenmeinungenSection.style.display = "none"
+        var KaufenSection = document.querySelector("kaufen")
+        KaufenSection = document.style.display = "flex"
+      }
+    </script>
 
 
 
