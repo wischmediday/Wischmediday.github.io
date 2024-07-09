@@ -120,7 +120,7 @@
           angereichert ist. Bestelle jetzt für nur <span class="preis">29,99 €</span> und starte energiegeladen in den
           Tag!
         </p>
-        <button class="bestellen">
+        <button onclick="zeigeMeldung()" class="bestellen">
           Jetzt bestellen
         </button>
       </div>
@@ -131,6 +131,8 @@
     var Naricht = "Bitte akzeptieren Sie die Cookies 🍪"
 
     alert(Naricht)
+
+
 
 
 
@@ -161,6 +163,9 @@
       UeberSection.style.display = "none";
       var NewsSection = document.querySelector(".kaufen");
       NewsSection.style.display = "flex";
+    }
+    function zeigeMeldung() {
+      alert("Ihr kauf wurde bestätigt. Die 29,99€ werden automatisch von Ihrem Konto abgezogen. Der ganze Wischmediday-Konzern bedankt sich bei Ihnen für den Einkauf😊")
     }
   </script>
 
