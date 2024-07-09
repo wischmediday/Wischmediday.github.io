@@ -42,16 +42,7 @@ body{
   font-weight: 200;
   font-style: normal;
 }
-.bestellen{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-    font-size: 50px;
-    font-family: "Krub", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-}
+
 
 .home{
     display: flex;
@@ -96,29 +87,58 @@ body{
 }
 .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.produktbild {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-color: #FFE0D6;
-    padding: 20px;
+    padding-left: 20px;
 }
-.text {
-    max-width: 600px;
-    margin-right: 20px;
-}
-.text h1 {
-    font-size: 2em;
-    color: #333;
-}
-.text p {
-    font-size: 1.2em;
-    color: #555;
+
+.text1 {
+    font-size: 24px; /* Kleinere Schriftgröße für den Text */
+    margin-bottom: 20px;
+    text-align: center;
     line-height: 1.6;
 }
 
+.preis {
+    font-weight: bold;
+    color: #FF5722; /* Beispiel Farbe für den Preis */
+}
 
+.bestellen {
+    background-color: #FF5722; /* Auffällige Hintergrundfarbe */
+    color: white;
+    border: 2px solid #FF5722; /* Umrandung in der gleichen Farbe */
+    padding: 20px 40px; /* Große Abmessungen für den Button */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px; /* Größere Schriftgröße für den Button */
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Weicher Farbübergang */
+}
 
-
-
-
-
+.bestellen:hover {
+    background-color: white; /* Farbwechsel beim Hover */
+    color: #FF5722;
+}
