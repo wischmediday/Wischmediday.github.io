@@ -72,9 +72,12 @@
  
     
 
-    <button class=" kaufen">
-        Kaufen
+    <button class=" bestellen">
+        Bestellen
         </button>
+
+
+
       </div>
     </section>
 
@@ -119,36 +122,41 @@
 
     <section class="kaufen">
 
-      1500$
+      Entdecken Sie den ultimativen Energieschub mit unserem revolutionären Powerdrink! Egal ob Sie einen langen
+      Arbeitstag vor sich haben, sich auf ein intensives Training vorbereiten oder einfach nur einen klaren Kopf
+      brauchen – unser Powerdrink liefert Ihnen die perfekte Kombination aus natürlicher Energie und erfrischendem
+      Geschmack. Spüren Sie die belebende Wirkung ohne unangenehme Nebenwirkungen wie Nervosität oder Herzrasen. Greifen
+      Sie jetzt zu und erleben Sie, wie Sie Ihre Leistungsfähigkeit auf ein neues Level bringen. Holen Sie sich Ihre
+      Dose Power und lassen Sie sich von der Energie und Vitalität mitreißen, die Sie verdienen!
 
     </section>
 
-                                          
+
     <script>
       function showhome() {
         var HomeSection = document.querySelector(".home")
         HomeSection.style.display = "flex"
-        var KundenmeinungenSection = document.querySelector(".kundenmeinenungen")
+        var KundenmeinungenSection = document.querySelector(".kundenmeinungen")
         KundenmeinungenSection.style.display = "none"
-        var KaufenSection = document.querySelector("kaufen")
+        var KaufenSection = document.querySelector(".kaufen")
         KaufenSection = document.style.display = "none"
       }
-      
+
 
       function showkundenmeinungen() {
         var HomeSection = document.querySelector(".home")
         HomeSection.style.display = "none"
-        var KundenmeinungenSection = document.querySelector(".kundenmeinenungen")
+        var KundenmeinungenSection = document.querySelector(".kundenmeinungen")
         KundenmeinungenSection.style.display = "flex"
-        var KaufenSection = document.querySelector("kaufen")
+        var KaufenSection = document.querySelector(".kaufen")
         KaufenSection = document.style.display = "none"
       }
       function showkaufen() {
         var HomeSection = document.querySelector(".home")
         HomeSection.style.display = "none"
-        var KundenmeinungenSection = document.querySelector(".kundenmeinenungen")
+        var KundenmeinungenSection = document.querySelector(".kundenmeinungen")
         KundenmeinungenSection.style.display = "none"
-        var KaufenSection = document.querySelector("kaufen")
+        var KaufenSection = document.querySelector(".kaufen")
         KaufenSection = document.style.display = "flex"
       }
     </script>
